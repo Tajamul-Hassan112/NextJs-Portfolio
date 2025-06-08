@@ -6,16 +6,27 @@ export const navItems = [
 ] as const;
 
 export const gridItems = [
+  // {
+  //   id: 1,
+  //   title: "Dedicated to crafting seamless user experiences with modern tech.",
+  //   description: "",
+  //   className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+  //   imgClassName: "w-full h-full",
+  //   titleClassName: "justify-end",
+  //   img: "/b1.svg",
+  //   spareImg: "",
+  // },
   {
-    id: 1,
-    title: "Dedicated to crafting seamless user experiences with modern tech.",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
+  id: 1,
+  title: "Dedicated to crafting seamless user experiences with modern tech.",
+  description: "",
+  className: "col-span-full md:col-span-6 lg:col-span-3 md:row-span-4 lg:min-h-[60vh] min-h-auto",
+  imgClassName: "w-full h-auto md:h-full", // let height auto on mobile, full on md+
+  titleClassName: "justify-end",
+  img: "/b1.svg",
+  spareImg: "",
+},
+
   {
     id: 2,
     title: "Flexible with communication across all time zones.",
