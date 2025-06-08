@@ -131,33 +131,26 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {id === 3 && (
-            <div className="absolute -right-3 flex w-fit gap-1 lg:-right-2 lg:gap-5">
-              <div className="flex flex-col gap-3 lg:gap-8">
-                {techStack.stack1.map((item) => (
-                  <span
-                    key={item}
-                    className="rounded-lg bg-[#10132e] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
-                  >
-                    {item}
-                  </span>
-                ))}
+  <div className="z-10 mt-6 flex flex-wrap gap-3">
+    {techStack.stack1.map((item) => (
+      <span
+        key={item}
+        className="rounded-lg bg-[#10132e] px-3 py-2 text-xs text-white opacity-80 lg:text-base lg:opacity-100"
+      >
+        {item}
+      </span>
+    ))}
+    {techStack.stack2.map((item) => (
+      <span
+        key={item}
+        className="rounded-lg bg-[#10132e] px-3 py-2 text-xs text-white opacity-80 lg:text-base lg:opacity-100"
+      >
+        {item}
+      </span>
+    ))}
+  </div>
+)}
 
-                <span className="rounded-lg bg-[#10132e] px-3 py-4 text-center" />
-              </div>
-
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="rounded-lg bg-[#10132e] px-3 py-4 text-center" />
-                {techStack.stack2.map((item) => (
-                  <span
-                    key={item}
-                    className="rounded-lg bg-[#10132e] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
 
           {id === 6 && (
             <div className="group relative mt-5">
