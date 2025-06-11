@@ -89,8 +89,17 @@ export const projects = [
     link: "https://github.com/Tajamul-Hassan112/StockSensePlus",
     sourceCode: "https://github.com/Tajamul-Hassan112/StockSensePlus",
   },
-  {
+    {
     id: 2,
+    title: "StoreIt",
+    des: "StoreIt is a web-based cloud storage and file management application built with Next.js (v15.0.2), React, and Appwrite as the backend",
+    img: "/logo-full-brand.svg",
+    iconLists: ["/re.svg", "/ts.svg", "/tail.svg","/appwrite.jpg"],
+    link: "https://github.com/Tajamul-Hassan112/StoreIt",
+    sourceCode: "https://github.com/Tajamul-Hassan112/StoreIt",
+  },
+  {
+    id: 3,
     title: "Trendify - E-commerce Platform",
     des: "Built an e-commerce platform with Firebase for real-time updates and user authentication.",
     img: "/trendify.jpg",
@@ -98,15 +107,7 @@ export const projects = [
     link: "https://github.com/Tajamul-Hassan112/Trendify",
     sourceCode: "https://github.com/Tajamul-Hassan112/Trendify",
   },
-  {
-    id: 3,
-    title: "YouTube Clone",
-    des: "A video-sharing platform with video playback, comments, and trending sections using Redux Toolkit.",
-    img: "/youtube.jpg",
-    iconLists: ["/re.svg", "/redux.svg", "/tail.svg"],
-    link: "https://github.com/Tajamul-Hassan112/YoutubeClone",
-    sourceCode: "https://github.com/Tajamul-Hassan112/YoutubeClone",
-  },
+
 ] as const;
 
 export const workExperience = [
